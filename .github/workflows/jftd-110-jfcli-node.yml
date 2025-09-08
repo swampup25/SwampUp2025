@@ -50,9 +50,11 @@ jobs:
       #   uses: jfrog/setup-jfrog-cli@v4
       #   env:
       #     JF_URL: ${{ vars.ARTIFACTORY_URL }}
+      # USE FOR APP
+      #     JF_URL: ${{ vars.JF_URL }}
+      
       #   with:
       #     oidc-provider-name: jfrog-githuboidc
-      #
       # USE FOR APP
       #     oidc-provider-name: swampup25/SwampUp2025@github
       

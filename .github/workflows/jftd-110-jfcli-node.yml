@@ -52,6 +52,9 @@ jobs:
       #     JF_URL: ${{ vars.JF_URL }}
       #   with:
       #     oidc-provider-name: jfrog-githuboidc
+      #
+      # USE FOR APP
+      #     oidc-provider-name: swampup25/SwampUp2025@github
       
       # End Lab 1.1 #########################################################
 
